@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/add/add",
+    "pages/detail/detail",
+    "pages/detailordelete/detailordelete"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00b28e",
+    "navigationBarTitleText": "耀玻",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#EFEFF4 "
+  },
+  "tabBar": {
+    "backgroundColor":"#ffffff",
+    "color":"#c7c7c7",
+    "selectedColor": "#00b28e",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "待完成",
+        "iconPath":"images/tabbar_undone.png",
+        "selectedIconPath":"images/tabbar_undone_selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "已完成",
+        "iconPath": "images/tabbar_done.png",
+        "selectedIconPath": "images/tabbar_done_selected.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

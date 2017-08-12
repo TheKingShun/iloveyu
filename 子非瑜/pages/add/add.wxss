@@ -1,0 +1,25 @@
+/* pages/add/add.wxss */
+
+.title {
+  width: 100%;
+  height: 90px;
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;  
+}
+
+.priority {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;  
+  flex-direction: row;
+}

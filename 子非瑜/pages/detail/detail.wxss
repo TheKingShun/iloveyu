@@ -1,0 +1,23 @@
+/* pages/detail/detail.wxss */
+.company{
+  width: 100%;
+  margin: 5px 5px;
+  text-align: center;
+  font-size: 15pt;
+  font-weight: bold;
+}
+.btn{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #00b28e;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  opacity: 0.8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15pt;
+}

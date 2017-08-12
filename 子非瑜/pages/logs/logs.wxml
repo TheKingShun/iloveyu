@@ -1,0 +1,31 @@
+<!-- 顶部栏
+<view class="topBar">
+  <view class="search_container">
+    <input value="{{searchInputData}}" placeholder="#查询#" maxlength="10"
+     bindinput="input_search" bindconfirm="conform_search"
+      confirm-type="search" />
+    <image hidden="{{!searchInputData}}" src="../../images/clear.png" 
+    style="width:17px;height:17px;" bindtap="clearSearchInput"></image>
+  </view>
+  <image src="../../images/search.png" class="homepage" bindtap="tapToSearch" ></image>
+</view> -->
+
+
+
+<view wx:for="{{items}}">
+<view class="item2" bindtap="taoToDetailOrDelete" id="{{index}}">
+<!--信息头部  -->
+  <view class="title2">
+    <view class="company2">{{item.name}}</view>
+    <view class="time2">{{item.date}}</view>
+  </view>
+  <!--信息尾部  -->
+  <view class="content2">
+    <view  class="count2">--------------</view>
+    <view style="background-color:#43f547"  class="priority2">完成</view>
+    
+  </view>
+</view>
+</view>
+
+

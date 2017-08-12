@@ -1,0 +1,89 @@
+
+@import 'weui.wxss';
+
+/**app.wxss**/
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+.tips {
+  font-size: 18px;
+  text-align: center;
+  padding: 50px;
+  color: #ccc;
+  font-weight: 100;
+}
+
+.tips image {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.tips image, .tips text {
+  vertical-align: middle;
+}
+
+.hide {
+  display: none !important;
+}
+
+/*modal*/
+
+.modalInfoTitle {
+  display: flex;
+}
+
+.modalInfoTitle image {
+  width: 150rpx;
+  height: 150rpx;
+  background-color: transparent;
+  border: 1px solid #f6fdff;
+  border-radius: 5%;
+}
+
+.titleAndDesc {
+  margin-left: 20rpx;
+  padding: 10rpx 0 10rpx 0;
+  /*font-size: 10pt;*/
+  color: #f4953b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.modalPhone {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15rpx;
+  padding: 5rpx 5rpx 5rpx 5rpx;
+  flex-wrap: wrap;
+}
+
+
+.noData {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  top: 25%;
+  font-size: 17pt;
+  font-family: sans-serif;
+  color: #D6D8D8;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+.noData text {
+  /*margin-top: 20rpx;*/
+}

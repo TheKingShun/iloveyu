@@ -1,0 +1,13 @@
+<view class="title">
+  <view class="customer">
+  <view class="">客户名：</view>
+   <input  bindinput="bindKeyInput" placeholder="输入同步到view中"/>
+  </view>
+  <view class="priority">
+  <radio-group class="radio-group" bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</radio-group>
+  </view>
+</view>

@@ -1,0 +1,20 @@
+<!--pages/detailordelete/detailordelete.wxml-->
+<!--pages/detail/detail.wxml-->
+<view style="width:100%;text-align:center">
+  <text class="company">{{info.name}}</text>--订单
+</view>
+
+<view style="width:100%;text-align:right">
+  <text style="margin-right:5px;">--{{info.date}}</text>
+</view>
+
+<scroll-view scroll-y style="height:{{height}}px">
+<view style="padding:10px 10px">
+  <text style="width:100%;">{{info.content}}</text>
+</view>
+
+</scroll-view>
+
+<view  class="btn" bindtap="tapToUndone">
+  <text>取消完成</text>
+</view>

@@ -1,0 +1,106 @@
+page {
+  background-color: white;
+}
+
+
+.item2 {
+  border-bottom: 1rpx solid gainsboro;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+
+.title2 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content2 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.time2 {
+  font-size: 9pt;
+}
+
+.company2 {
+  font-size: 12pt;
+}
+
+.priority2 {
+  color: white;
+  font-size: 9pt;
+  border-radius: 5px;
+  background-color: #71d1d7;
+  padding-top: 5rpx;
+  padding-bottom: 5rpx;
+  padding-left: 15rpx;
+  padding-right: 15rpx;
+}
+/*顶部栏的样式*/
+
+.topBar {
+  width: 100%;
+  height: 38px;
+  background-color: #00b28e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rpx 0;
+}
+
+.topBar text {
+  font-size: 9pt;
+  color: white;
+  max-width: 15%;
+  overflow: hidden; /* 内容超出宽度时隐藏超出部分的内容 */
+  text-overflow: ellipsis; /*当对象内文本溢出时显示省略标记(...)需与overflow:hidden;一起使用*/
+  white-space: nowrap; /* 不换行 */
+  font-weight: bold;
+  flex-grow: 10;
+  padding: 8rpx;
+  margin: 0 8rpx;
+  text-align: center;
+}
+
+.search_container {
+  /* max-width: 90%; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10pt;
+  border-radius: 45rpx;
+  flex-grow: 1;
+  background-color: white;
+  padding: 8rpx 25rpx;
+  margin: 10rpx 0;
+  margin-left: 10px;
+  height: 20px;
+}
+
+.search_container input {
+  font-size: 10pt;
+  flex-grow: 1;
+  margin-left: 20rpx;
+}
+
+.homepage {
+  /* max-width: 20%; */
+  width: 20px;
+  height: 20px;
+  /*text-align: center;*//*flex-grow: 1;*/
+  padding: 8rpx;
+   margin: 0 10rpx; 
+  /**/
+}
+
